@@ -11,6 +11,7 @@ class NotificacionController extends Controller
     public function index()
     {
         
+
         
         //$mensaje = DB::table('mensajes')->get();
         $count = Mensaje::where('recibe_id','=', auth()->id())->count();

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Cobrador;
 use Illuminate\Http\Request;
 
+
 class CobradorController extends Controller
 {
     /**
@@ -14,7 +15,8 @@ class CobradorController extends Controller
      */
     public function index()
     {
-        return view('cobrador.index');
+     
+                return view('cobrador.index');
     }
 
     /**
